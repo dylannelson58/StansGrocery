@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SplashScreenForm1.Designer.vb">
+      <DependentUpon>SplashScreenForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreenForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="StansGrocery.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -97,6 +104,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="SplashScreenForm1.resx">
+      <DependentUpon>SplashScreenForm1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StansGrocery.resx">
       <DependentUpon>StansGrocery.vb</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +128,12 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stans Grocery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stans Grocery1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
