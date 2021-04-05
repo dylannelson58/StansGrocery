@@ -73,10 +73,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SplashScreenForm1.Designer.vb">
-      <DependentUpon>SplashScreenForm1.vb</DependentUpon>
+    <Compile Include="SplashScreenForm.Designer.vb">
+      <DependentUpon>SplashScreenForm.vb</DependentUpon>
     </Compile>
-    <Compile Include="SplashScreenForm1.vb">
+    <Compile Include="SplashScreenForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="StansGrocery.vb">
@@ -104,8 +104,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="SplashScreenForm1.resx">
-      <DependentUpon>SplashScreenForm1.vb</DependentUpon>
+    <EmbeddedResource Include="SplashScreenForm.resx">
+      <DependentUpon>SplashScreenForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StansGrocery.resx">
       <DependentUpon>StansGrocery.vb</DependentUpon>

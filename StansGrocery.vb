@@ -35,12 +35,15 @@ Public Class StansGrocery
         End Try
     End Sub
 
-    Sub LoadDataFile()
-        Dim temp() As String
-        Dim secondArray As String
-        Dim thirdArray As String
+    'Sub LoadDataFile()
+    '    Dim temp() As String
+    '    Dim secondArray As String
+    '    Dim thirdArray As String
 
-    End Sub
+    '    temp = Split(My.Resources.crocery, vbNewLine)
+    '    For i = LBound(temp)
+
+    'End Sub
     Private Sub LoadButton_Click(sender As Object, e As EventArgs) Handles LoadButton.Click
         ReadFile()
         TestTextBox.Text = OpenFileDialog.FileName
