@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="grocery" xml:space="preserve">
+    <value>"$$ITMAsparagus","##LOC0","%%CATFresh Vegetables"
+"$$ITMBroccoli","##LOC0","%%CATFresh Vegetables"
+"$$ITMCarrots","##LOC0","%%CATFresh Vegetables"
+"$$ITMCauliflower","##LOC0","%%CATFresh Vegetables"
+"$$ITMCelery","##LOC0","%%CATFresh Vegetables"
+"$$ITMCorn","##LOC0","%%CATFresh Vegetables"
+"$$ITMCucumbers","##LOC0","%%CATFresh Vegetables"
+"$$ITMLettuce / Greens","##LOC0","%%CATFresh Vegetables"
+"$$ITMMushrooms","##LOC0","%%CATFresh Vegetables"
+"$$ITMOnions","##LOC0","%%CATFresh Vegetables"
+"$$ITMPeppers","##LOC0","%%CATFresh Vegetables"
+"$$ITMPotatoes","##LOC0","%%CATFresh Vegetables"
+"$$ITMSpinach","##LOC0","%%CATFresh Vegetables"
+"$$ITMSquash","##LOC0","%%CATFresh Vegetables"
+"$$ITMZucchini","##LOC0","%%CATFresh Vegetables"
+"$$ITMTomatoes*","##LOC0","%%CATFresh Fruit"
+"$$ITMApples","##LOC0","%%CATFresh Fruit"
+"$$ITMAvocados","##LOC0","%%CATFresh Fruit"
+"$$ITMBananas","##LOC0","%%CATFresh Fruit"
+"$$ITMBerries","##LOC0","%%CATFresh Fruit"
+"$$ITMCherries","##LOC0","%%CATFresh Fruit"
+"$$ITMGrapefruit","##LOC0","%%CATFresh Fruit"
+"$$ITMGrapes","##LOC0","%%CATFresh Fruit"
+"$$ITMKiwis","##LOC0","%%CATFresh Fruit"
+"$$ITMLemons / Limes","##LOC0","%%CATFresh Fruit"
+"$$ITMMelon","##LOC0","%%CATFresh Fruit"
+"$$ITMNectarines","##LOC0","%%CATFresh Fruit"
+"$$ITMOranges","##LOC0","%%CATFresh Fruit"
+"$$ITMPeaches","##LOC0","%%CATFresh Fruit"
+"$$ITMPears","##LOC0","%%CATFresh Fruit"
+"$$ITMPlums","##LOC0","%%CATFresh Fruit"
+"$$ITMBagels","##LOC","%%CAT"
+"$$ITMChip dip","##LOC","%%CAT"
+"$$ITMEggs / Fake eggs","##LOC","%%CAT"
+"$$ITMEnglish muffins","##LOC","%%CAT"
+"$$ITMFruit juice","##LOC","%%CAT"
+"$$ITMHummus","##LOC","%%CAT"
+"$$ITMTofu","##LOC","%%CAT"
+"$$ITMTortillas","##LOC","%%CAT"
+"$$ITMBreakfasts","##LOC3","%%CATFrozen"
+"$$ITMBurritos","##LOC3","%%CATFrozen"
+"$$ITMFish sticks","##LOC3","%%CATFrozen"
+"$$ITMFries / Tater tots","##LOC3","%%CATFrozen"
+"$$ITMIce cream / Sorbet","##LOC3","%%CATFrozen"
+"$$ITMJuice concentrate","##LOC3","%%CATFrozen"
+"$$ITMPizza","##LOC3","%%CATFrozen"
+"$$ITMPizza Rolls","##LOC3","%%CATFrozen"
+"$$ITMPopsicles","##LOC3","%%CATFrozen"
+"$$ITMTV dinners","##LOC3","%%CATFrozen"
+"$$ITMVegetables","##LOC3","%%CATFrozen"
+"$$ITMBBQ sauce","##LOC5","%%CATCondiments / Sauces"
+"$$ITMGravy","##LOC5","%%CATCondiments / Sauces"
+"$$ITMHoney","##LOC5","%%CATCondiments / Sauces"
+"$$ITMHot sauce","##LOC5","%%CATCondiments / Sauces"
+"$$ITMJam / Jelly / Preserves","##LOC5","%%CATCondiments / Sauces"
+"$$ITMKetchup / Mustard","##LOC5","%%CATCondiments / Sauces"
+"$$ITMMayonnaise","##LOC5","%%CATCondiments / Sauces"
+"$$ITMPasta sauce","##LOC5","%%CATCondiments / Sauces"
+"$$ITMRelish","##LOC5","%%CATCondiments / Sauces"
+"$$ITMSalad dressing","##LOC5","%%CATCondiments / Sauces"
+"$$ITMSalsa","##LOC5","%%CATCondiments / Sauces"
+"$$ITMSoy sauce","##LOC5","%%CATCondiments / Sauces"
+"$$ITMSteak sauce","##LOC5","%%CATCondiments / Sauces"
+"$$ITMSyrup","##LOC5","%%CATCondiments / Sauces"
+"$$ITMWorcestershire sauce","##LOC5","%%CATCondiments / Sauces"
+"$$ITMBouillon cubes","##LOC8","%%CATVarious groceries"
+"$$ITMCereal","##LOC8","%%CATVarious groceries"
+"$$ITMCoffee / Filters","##LOC8","%%CATVarious groceries"
+"$$ITMInstant potatoes","##LOC8","%%CATVarious groceries"
+"$$ITMLemon / Lime juice","##LOC8","%%CATVarious groceries"
+"$$ITMMac &amp; cheese","##LOC8","%%CATVarious groceries"
+"$$ITMOlive oil","##LOC8","%%CATVarious groceries"
+"$$ITMPackaged meals","##LOC8","%%CATVarious groceries"
+"$$ITMPancake / Waffle mix","##LOC8","%%CATVarious groceries"
+"$$ITMPasta","##LOC8","%%CATVarious groceries"
+"$$ITMPeanut butter","##LOC8","%%CATVarious groceries"
+"$$ITMPickles","##LOC8","%%CATVarious groceries"
+"$$ITMRice","##LOC8","%%CATVarious groceries"
+"$$ITMTea","##LOC8","%%CATVarious groceries"
+"$$ITMVegetable oil","##LOC8","%%CATVarious groceries"
+"$$ITMVinegar","##LOC8","%%CATVarious groceries"
+"$$ITMApplesauce","##LOC6","%%CATCanned foods"
+"$$ITMBaked beans","##LOC6","%%CATCanned foods"
+"$$ITMBroth","##LOC6","%%CATCanned foods"
+"$$ITMFruit","##LOC6","%%CATCanned foods"
+"$$ITMOlives","##LOC6","%%CATCanned foods"
+"$$ITMTinned meats","##LOC6","%%CATCanned foods"
+"$$ITMTuna / Chicken","##LOC6","%%CATCanned foods"
+"$$ITMSoup / Chili","##LOC6","%%CATCanned foods"
+"$$ITMTomatoes","##LOC6","%%CATCanned foods"
+"$$ITMVeggies","##LOC6","%%CATCanned foods"
+"$$ITMBasil","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMBlack pepper","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMCilantro","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMCinnamon","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMGarlic","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMGinger","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMMint","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMOregano","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMPaprika","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMParsley","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMRed pepper","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMSalt","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMVanilla extract","##LOC7","%%CATSpices &amp; herbs"
+"$$ITMButter / Margarine","##LOC10","%%CATDairy"
+"$$ITMCottage cheese","##LOC10","%%CATDairy"
+"$$ITMHalf &amp; half","##LOC10","%%CATDairy"
+"$$ITMMilk","##LOC10","%%CATDairy"
+"$$ITMSour cream","##LOC10","%%CATDairy"
+"$$ITMWhipped cream","##LOC10","%%CATDairy"
+"$$ITMYogurt","##LOC10","%%CATDairy"
+"$$ITMBleu cheese","##LOC10","%%CATCheese"
+"$$ITMCheddar","##LOC10","%%CATCheese"
+"$$ITMCottage cheese","##LOC10","%%CATCheese"
+"$$ITMCream cheese","##LOC10","%%CATCheese"
+"$$ITMFeta","##LOC10","%%CATCheese"
+"$$ITMGoat cheese","##LOC10","%%CATCheese"
+"$$ITMMozzarella","##LOC10","%%CATCheese"
+"$$ITMParmesan","##LOC10","%%CATCheese"
+"$$ITMProvolone","##LOC10","%%CATCheese"
+"$$ITMRicotta","##LOC10","%%CATCheese"
+"$$ITMSandwich slices","##LOC10","%%CATCheese"
+"$$ITMSwiss","##LOC10","%%CATCheese"
+"$$ITMBacon / Sausage","##LOC11","%%CATMeat"
+"$$ITMBeef","##LOC11","%%CATMeat"
+"$$ITMChicken","##LOC11","%%CATMeat"
+"$$ITMGround beef / Turkey","##LOC11","%%CATMeat"
+"$$ITMHam / Pork","##LOC11","%%CATMeat"
+"$$ITMHot dogs","##LOC11","%%CATMeat"
+"$$ITMLunchmeat","##LOC11","%%CATMeat"
+"$$ITMTurkey","##LOC11","%%CATMeat"
+"$$ITMCatfish","##LOC11","%%CATSeafood"
+"$$ITMCrab","##LOC11","%%CATSeafood"
+"$$ITMLobster","##LOC11","%%CATSeafood"
+"$$ITMMussels","##LOC11","%%CATSeafood"
+"$$ITMOysters","##LOC11","%%CATSeafood"
+"$$ITMSalmon","##LOC11","%%CATSeafood"
+"$$ITMShrimp","##LOC11","%%CATSeafood"
+"$$ITMTilapia","##LOC11","%%CATSeafood"
+"$$ITMTuna","##LOC11","%%CATSeafood"
+"$$ITMBeer","##LOC12","%%CATBeverages"
+"$$ITMClub soda / Tonic","##LOC12","%%CATBeverages"
+"$$ITMChampagne","##LOC12","%%CATBeverages"
+"$$ITMGin","##LOC12","%%CATBeverages"
+"$$ITMJuice","##LOC12","%%CATBeverages"
+"$$ITMMixers","##LOC12","%%CATBeverages"
+"$$ITMRed wine / White wine","##LOC12","%%CATBeverages"
+"$$ITMRum","##LOC12","%%CATBeverages"
+"$$ITMSaké","##LOC12","%%CATBeverages"
+"$$ITMSoda pop","##LOC12","%%CATBeverages"
+"$$ITMSports drink","##LOC12","%%CATBeverages"
+"$$ITMWhiskey","##LOC12","%%CATBeverages"
+"$$ITMVodka","##LOC12","%%CATBeverages"
+"$$ITM","##LOC2","%%CAT"
+"$$ITMBagels / Croissants","##LOC2","%%CATBaked goods"
+"$$ITMBuns / Rolls","##LOC2","%%CATBaked goods"
+"$$ITMCake / Cookies","##LOC2","%%CATBaked goods"
+"$$ITMDonuts / Pastries","##LOC2","%%CATBaked goods"
+"$$ITMFresh bread","##LOC2","%%CATBaked goods"
+"$$ITMPie! Pie! Pie!","##LOC2","%%CATBaked goods"
+"$$ITMPita bread","##LOC2","%%CATBaked goods"
+"$$ITMSliced bread","##LOC2","%%CATBaked goods"
+"$$ITMBaking powder / Soda","##LOC7","%%CATBaking"
+"$$ITMBread crumbs","##LOC7","%%CATBaking"
+"$$ITMCake / Brownie mix","##LOC7","%%CATBaking"
+"$$ITMCake icing / Decorations","##LOC7","%%CATBaking"
+"$$ITMChocolate chips / Cocoa","##LOC7","%%CATBaking"
+"$$ITMFlour","##LOC7","%%CATBaking"
+"$$ITMShortening","##LOC7","%%CATBaking"
+"$$ITMSugar","##LOC7","%%CATBaking"
+"$$ITMSugar substitute","##LOC7","%%CATBaking"
+"$$ITMYeast","##LOC7","%%CATBaking"
+"$$ITMCandy / Gum","##LOC4","%%CATSnacks"
+"$$ITMCookies","##LOC4","%%CATSnacks"
+"$$ITMCrackers","##LOC4","%%CATSnacks"
+"$$ITMDried fruit","##LOC4","%%CATSnacks"
+"$$ITMGranola bars / Mix","##LOC4","%%CATSnacks"
+"$$ITMNuts / Seeds","##LOC4","%%CATSnacks"
+"$$ITMOatmeal","##LOC4","%%CATSnacks"
+"$$ITMPopcorn","##LOC4","%%CATSnacks"
+"$$ITMPotato / Corn chips","##LOC4","%%CATSnacks"
+"$$ITMPretzels","##LOC4","%%CATSnacks"
+"$$ITMBurger night","##LOC9","%%CATThemed meals"
+"$$ITMChili night","##LOC9","%%CATThemed meals"
+"$$ITMPizza night","##LOC9","%%CATThemed meals"
+"$$ITMSpaghetti night","##LOC9","%%CATThemed meals"
+"$$ITMTaco night","##LOC9","%%CATThemed meals"
+"$$ITMTake-out deli food","##LOC9","%%CATThemed meals"
+"$$ITMBaby food","##LOC13","%%CATBaby stuff"
+"$$ITMDiapers","##LOC13","%%CATBaby stuff"
+"$$ITMFormula","##LOC13","%%CATBaby stuff"
+"$$ITMLotion","##LOC13","%%CATBaby stuff"
+"$$ITMBaby wash","##LOC13","%%CATBaby stuff"
+"$$ITMWipes","##LOC13","%%CATBaby stuff"
+"$$ITMCat food / Treats","##LOC14","%%CATPets"
+"$$ITMCat litter","##LOC14","%%CATPets"
+"$$ITMDog food / Treats","##LOC14","%%CATPets"
+"$$ITMFlea treatment","##LOC14","%%CATPets"
+"$$ITMPet shampoo","##LOC14","%%CATPets"
+"$$ITMAntiperspirant / Deodorant","##LOC16","%%CATPersonal care"
+"$$ITMBath soap / Hand soap","##LOC16","%%CATPersonal care"
+"$$ITMCondoms / Other b.c.","##LOC16","%%CATPersonal care"
+"$$ITMCosmetics","##LOC16","%%CATPersonal care"
+"$$ITMCotton swabs / Balls","##LOC16","%%CATPersonal care"
+"$$ITMFacial cleanser","##LOC16","%%CATPersonal care"
+"$$ITMFacial tissue","##LOC16","%%CATPersonal care"
+"$$ITMFeminine products","##LOC16","%%CATPersonal care"
+"$$ITMFloss","##LOC16","%%CATPersonal care"
+"$$ITMHair gel / Spray","##LOC16","%%CATPersonal care"
+"$$ITMLip balm","##LOC16","%%CATPersonal care"
+"$$ITMMoisturizing lotion","##LOC16","%%CATPersonal care"
+"$$ITMMouthwash","##LOC16","%%CATPersonal care"
+"$$ITMRazors / Shaving cream","##LOC16","%%CATPersonal care"
+"$$ITMShampoo / Conditioner","##LOC16","%%CATPersonal care"
+"$$ITMSunblock","##LOC16","%%CATPersonal care"
+"$$ITMToilet paper","##LOC16","%%CATPersonal care"
+"$$ITMToothpaste","##LOC16","%%CATPersonal care"
+"$$ITMVitamins / Supplements","##LOC16","%%CATPersonal care"
+"$$ITMAllergy","##LOC17","%%CATPharmacy"
+"$$ITMAntibiotic","##LOC17","%%CATPharmacy"
+"$$ITMAntidiarrheal","##LOC17","%%CATPharmacy"
+"$$ITMAspirin","##LOC17","%%CATPharmacy"
+"$$ITMAntacid","##LOC17","%%CATPharmacy"
+"$$ITMBand-aids / Medical","##LOC17","%%CATPharmacy"
+"$$ITMCold / Flu / Sinus","##LOC17","%%CATPharmacy"
+"$$ITMPain reliever","##LOC17","%%CATPharmacy"
+"$$ITMPrescription pick-up","##LOC17","%%CATPharmacy"
+"$$ITMAluminum foil","##LOC14","%%CATKitchen"
+"$$ITMNapkins","##LOC14","%%CATKitchen"
+"$$ITMNon-stick spray","##LOC14","%%CATKitchen"
+"$$ITMPaper towels","##LOC14","%%CATKitchen"
+"$$ITMPlastic wrap","##LOC14","%%CATKitchen"
+"$$ITMSandwich / Freezer bags","##LOC14","%%CATKitchen"
+"$$ITMWax paper","##LOC14","%%CATKitchen"
+"$$ITMAir freshener","##LOC15","%%CATCleaning products"
+"$$ITMBathroom cleaner","##LOC15","%%CATCleaning products"
+"$$ITMBleach / Detergent","##LOC15","%%CATCleaning products"
+"$$ITMDish / Dishwasher soap","##LOC15","%%CATCleaning products"
+"$$ITMGarbage bags","##LOC15","%%CATCleaning products"
+"$$ITMGlass cleaner","##LOC15","%%CATCleaning products"
+"$$ITMMop head / Vacuum bags","##LOC15","%%CATCleaning products"
+"$$ITMSponges / Scrubbers","##LOC15","%%CATCleaning products"
+"$$ITMCDRs / DVDRs","##LOC15","%%CATOffice supplies"
+"$$ITMNotepad / Envelopes","##LOC15","%%CATOffice supplies"
+"$$ITMGlue / Tape","##LOC15","%%CATOffice supplies"
+"$$ITMPrinter paper","##LOC15","%%CATOffice supplies"
+"$$ITMPens / Pencils","##LOC15","%%CATOffice supplies"
+"$$ITMPostage stamps","##LOC15","%%CATOffice supplies"
+"$$ITMAutomotive","##LOC15","%%CATOther stuff"
+"$$ITMBatteries","##LOC15","%%CATOther stuff"
+"$$ITMCharcoal / Propane","##LOC15","%%CATOther stuff"
+"$$ITMFlowers / Greeting card","##LOC15","%%CATOther stuff"
+"$$ITMInsect repellent","##LOC15","%%CATOther stuff"
+"$$ITMLight bulbs","##LOC15","%%CATOther stuff"
+"$$ITMNewspaper / Magazine","##LOC15","%%CATOther stuff"
+"$$ITMRandom impulse buy","##LOC15","%%CATOther stuff"</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grocery_txt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>grocery.txt.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+</root>

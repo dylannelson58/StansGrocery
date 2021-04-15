@@ -24,22 +24,26 @@ Namespace My.Resources
     '''</summary>
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0"),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
-     Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
-    Friend Module Resources
+     Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()>  _
+    Friend Class grocery
         
-        Private resourceMan As Global.System.Resources.ResourceManager
+        Private Shared resourceMan As Global.System.Resources.ResourceManager
         
-        Private resourceCulture As Global.System.Globalization.CultureInfo
+        Private Shared resourceCulture As Global.System.Globalization.CultureInfo
+        
+        <Global.System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")>  _
+        Friend Sub New()
+            MyBase.New
+        End Sub
         
         '''<summary>
         '''  Returns the cached ResourceManager instance used by this class.
         '''</summary>
         <Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Friend ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
+        Friend Shared ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("StansGrocery.Resources", GetType(Resources).Assembly)
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("StansGrocery.grocery", GetType(grocery).Assembly)
                     resourceMan = temp
                 End If
                 Return resourceMan
@@ -51,7 +55,7 @@ Namespace My.Resources
         '''  resource lookups using this strongly typed resource class.
         '''</summary>
         <Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Friend Property Culture() As Global.System.Globalization.CultureInfo
+        Friend Shared Property Culture() As Global.System.Globalization.CultureInfo
             Get
                 Return resourceCulture
             End Get
@@ -73,30 +77,29 @@ Namespace My.Resources
         '''&quot;$$ITMOnions&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
         '''&quot;$$ITMP [rest of string was truncated]&quot;;.
         '''</summary>
-        Friend ReadOnly Property grocery_txt() As String
+        Friend Shared ReadOnly Property grocery() As String
+            Get
+                Return ResourceManager.GetString("grocery", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to &quot;$$ITMAsparagus&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMBroccoli&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMCarrots&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMCauliflower&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMCelery&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMCorn&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMCucumbers&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMLettuce / Greens&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMMushrooms&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMOnions&quot;,&quot;##LOC0&quot;,&quot;%%CATFresh Vegetables&quot;
+        '''&quot;$$ITMP [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend Shared ReadOnly Property grocery_txt() As String
             Get
                 Return ResourceManager.GetString("grocery_txt", resourceCulture)
             End Get
         End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Stans_Grocery() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Stans Grocery", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Stans_Grocery1() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Stans Grocery1", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-    End Module
+    End Class
 End Namespace
